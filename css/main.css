@@ -34,3 +34,30 @@ input[type=text], input[type=number]{
 .welcome h1{
 	margin-top: calc(25% - 28px);
 }
+.stat_bar{
+	width: 290px;
+	height: 25px;
+	border: 1px solid rgba(97, 166, 99, 0.34);
+	border-radius: 4px;
+}
+.stat_bar__progress{
+	width: 0%;
+	height: 25px;
+	background: #61A663; 
+	border-radius: 4px;
+	top: -1px;
+	left: 0;	
+    opacity: 0.5;
+	transition: 1s;
+}
+.quest{
+	background: #383838;
+	border-radius: 21px;
+	padding: 30px;
+	max-width: 850px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.red{
+	color: red !important;
+}
